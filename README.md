@@ -89,8 +89,8 @@ Projet de développement d'une plateforme web de gestion des étudiants et de le
 
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/nom_du_projet/plateforme-notes-fast.git
-cd plateforme-notes-fast
+git clone https://github.com/Simeonaho/rapport_academique.git
+cd rapport_academique
 
 # 2. Créer et activer un environnement virtuel
 python -m venv venv
@@ -101,6 +101,10 @@ pip install -r requirements.txt
 
 # 4. Lancer l'application Flask
 python run.py
+
+# Mettre à jour le fichier plus tard
+pip freeze > requirements.txt
+
 ```
 
 ---
